@@ -45,3 +45,14 @@ volatility-modeling/
 - Estimated conditional volatility from a GARCH(1,1) model
 - Comparison with raw return series
 
+
+## 📈 Sample Outputs
+
+### Log Returns Time Series
+![Log Returns](outputs/log_returns_plot.png)
+
+### Model Summary Table
+![Summary Table](outputs/summary_table.png)
+
+### GARCH(1,1) Estimated Volatility
+![Estimated Volatility](outputs/estimated_volatility.png)
