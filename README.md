@@ -56,3 +56,11 @@ volatility-modeling/
 
 ### GARCH(1,1) Estimated Volatility
 ![Estimated Volatility](outputs/estimated_volatility.png)
+
+## 👤 Author
+
+Amanda Achiangia  
+BSc Applied Mathematics (Financial Mathematics), York University  
+Aspiring Quantitative Finance Professional  
+[LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN/) | [GitHub](https://github.com/sensor-aae)
+
