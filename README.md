@@ -79,4 +79,4 @@ volatility-modeling/
 Amanda Achiangia  
 BSc Applied Mathematics (Financial Mathematics), York University  
 Aspiring Quantitative Finance Professional  
-[LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN/) | [GitHub](https://github.com/sensor-aae)
+[LinkedIn](https://www.linkedin.com/in/amanda-a-602328284/) | [GitHub](https://github.com/sensor-aae)
