@@ -45,7 +45,6 @@ volatility-modeling/
 - Estimated conditional volatility from a GARCH(1,1) model
 - Comparison with raw return series
 
-
 ## 📈 Sample Outputs
 
 ### Log Returns Time Series
@@ -57,10 +56,27 @@ volatility-modeling/
 ### GARCH(1,1) Estimated Volatility
 ![Estimated Volatility](outputs/estimated_volatility.png)
 
+## Results & Key Findings
+
+- **Volatility Clustering Observed**  
+  The GARCH(1,1) model captures strong volatility persistence in S&P 500 returns, with
+  \( \alpha + \beta \) close to 1, consistent with well-documented financial time-series behavior.
+
+- **Improved Fit Over Constant Volatility**  
+  Compared to a constant-variance baseline, the GARCH model produces time-varying
+  volatility estimates that better align with periods of market stress and calm.
+
+- **Mean-Reverting Conditional Variance**  
+  Conditional variance shows mean reversion after volatility spikes, reflecting realistic
+  post-shock dynamics in equity markets.
+
+- **Practical Risk Insight**  
+  Estimated volatility paths provide inputs for downstream risk measures such as
+  Value-at-Risk (VaR), stress testing, and scenario analysis.
+
 ## 👤 Author
 
 Amanda Achiangia  
 BSc Applied Mathematics (Financial Mathematics), York University  
 Aspiring Quantitative Finance Professional  
 [LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN/) | [GitHub](https://github.com/sensor-aae)
-
