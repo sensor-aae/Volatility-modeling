@@ -1,2 +1,19 @@
-# macOS system files
+# OS files
 .DS_Store
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Notebooks and editors
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Build artifacts
+build/
+dist/
