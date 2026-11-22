@@ -1,0 +1,23 @@
+# Dates use YYYY-MM-DD; end dates are exclusive.
+data:
+  ticker: "^GSPC"
+  start: "2015-01-01"
+  end: "2026-11-01"  # reproducible cutoff; change deliberately
+  auto_adjust: true
+  price_field: "Close"
+
+forecast:
+  train_end: "2020-01-01"  # first out-of-sample period starts here
+  horizon_days: 1
+  refit_every_observations: 21
+  window: "expanding"  # alternative: rolling, to be implemented
+
+models:
+  ewma_lambda: 0.94
+  distribution: "normal"
+
+risk:
+  confidence_levels: [0.975, 0.99]
+
+output:
+  directory: "outputs"
